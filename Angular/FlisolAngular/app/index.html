@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="FlisolApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Angular Flisol</title>
+    </head>
+    <body>
+        <div ng-controller="FlisolController as myController">
+            <p>{{myController.comic.name}}</p>
+            <p>{{myController.comic.descripcion}}</p>
+            <img src="{{myController.comic.imagen}}">
+        </div>
+        <script src="angular.min.js"> </script>
+        <script src="app.js"></script>
+    </body>
+</html>
